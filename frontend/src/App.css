@@ -1,0 +1,237 @@
+/* Specific styles for App.js */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  width: 100%; /* Ensure full width */
+  padding: 0; /* Remove padding to utilize full width */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #1e3a8a;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.app-main {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.app-footer {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #1e3a8a;
+  color: white;
+  font-size: 0.8rem;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Specific styles for AddTask.js */
+.add-task-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.task-input {
+  width: calc(100% - 80px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.add-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Specific styles for TaskList.js */
+.task-list-container {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.task-list-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.task-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.task-item-content {
+  display: flex;
+  align-items: center;
+}
+
+.task-checkbox {
+  margin-right: 10px;
+}
+
+.task-completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.trash-icon {
+  margin-right: 5px;
+}
+
+.download-pdf-button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.download-pdf-button:hover {
+  background-color: #1e87f0;
+}
+
+/* App.css */
+
+.edit-task-input {
+  width: calc(100% - 80px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.edit-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 15px;
+width: 80px;
+}
+
+.edit-icon,
+.save-icon,
+.cancel-icon {
+  vertical-align: middle;
+}
+
+.save-icon {
+  margin-left: 5px;
+}
+
+.cancel-icon {
+  margin-left: 5px;
+  background-color: #f44336;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.task-item-content {
+  display: flex;
+  align-items: center;
+}
+
+.task-checkbox {
+  margin-right: 10px;
+}
+
+.task-completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.trash-icon {
+  margin-right: 5px;
+}
+
+.download-pdf-button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+
+.download-pdf-button:hover {
+  background-color: #1e87f0;
+}
